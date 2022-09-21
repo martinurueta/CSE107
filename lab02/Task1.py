@@ -80,4 +80,6 @@ for row in range(0, ninetydegrees_rows):
     for col in range(0, ninetydegrees_cols):
         if maxpixel < ninetydegrees_cw_pixels[row, col]:
             maxpixel = ninetydegrees_cw_pixels[row, col]
+            
+# Print max pixel value
 print("maximum pixel value is :", maxpixel)
